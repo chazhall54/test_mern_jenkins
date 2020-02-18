@@ -1,0 +1,31 @@
+{
+  "name": "test_mern_jenkins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pm2Start": "./node_modules/.bin/pm2 start app.js",
+    "mocha": "./node_modules/.bin/mocha",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chazhall54/test_mern_jenkins.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chazhall54/test_mern_jenkins/issues"
+  },
+  "homepage": "https://github.com/chazhall54/test_mern_jenkins#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pm2": "^4.2.3"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.1",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  }
+}
