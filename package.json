@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pm2Start": "./node_modules/.bin/pm2 start app.js",
+    "start": "./node_modules/.bin/pm2 start app.js",
     "test": "./node_modules/.bin/mocha"
   },
   "repository": {
